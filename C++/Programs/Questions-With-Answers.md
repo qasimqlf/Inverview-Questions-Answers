@@ -1,26 +1,41 @@
 ## C++
 
-#### Q1. Write a program to print Even Numbers from 1 to 100?
+#### Q1. Fibbonacci series by using recursion?
 
 ```cpp
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main() {
- 
-    int i;
- 
-    /* Run a loop from 1 to 100. */
- 
-    for(i = 1; i < = 100; i++){
-  
-       /* If number is divisible by 2. */
-  
-      if(i % 2 == 0) {
+int fbseries(int n)
+{
 
-         cout << i <<" "; 
-      }
-   }
-    return 0;
+    
+    if(n==0)
+        return 0;
+    
+    if(n==1)
+     return 1;
+ 
+    
+   int ans = fbseries(n-1)+fbseries(n-2);
+   return ans;
+
 }
+
+int main()
+{
+    
+    int n;
+    cout<<"Enter the term for fibonacci number : "<<endl;
+    cin>>n;
+    int ans=fbseries(n);
+    cout<<endl<<"The fibonacci series term is : "<<ans<<endl;
+
+    return 0;
+
+
+}
+
+//  Output format :  Enter the term for fibonacci number : 3
+//                   The fibonacci series term is : 2
 ```
