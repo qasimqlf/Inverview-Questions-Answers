@@ -1,6 +1,32 @@
 ## C++
 
-#### Q1. Fibbonacci series by using recursion?
+
+#### Q1. Write a program to print Even Numbers from 1 to 100?
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+ 
+    int i;
+ 
+    /* Run a loop from 1 to 100. */
+ 
+    for(i = 1; i < = 100; i++){
+  
+       /* If number is divisible by 2. */
+  
+      if(i % 2 == 0) {
+
+         cout << i <<" "; 
+      }
+   }
+    return 0;
+}
+```
+
+#### Q2. Fibbonacci series by using recursion?
 
 ```cpp
 #include<iostream>
@@ -41,7 +67,7 @@ int main()
 ```
 ## C++
 
-#### Q2. Write a program to convert normal case to camel case
+#### Q3. Write a program to convert normal case to camel case
 
 ```cpp
 #include <iostream>
