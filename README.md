@@ -7,7 +7,7 @@
 
 > This repository is for those looking for Interview Questions and Answers or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
 
-## Special Thanks To Our Contributer
+## Special Thanks To Our Contributer [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=qasimqlf/Inverview-Questions-Answers)
 
