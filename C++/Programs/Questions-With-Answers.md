@@ -65,7 +65,6 @@ int main()
 //  Output format :  Enter the term for fibonacci number : 3
 //                   The fibonacci series term is : 2
 ```
-## C++
 
 #### Q3. Write a program to convert normal case to camel case
 
