@@ -24,8 +24,3 @@ int main() {
     return 0;
 }
 ```
-
-- [ ] False
-- [ ] 0
-- [x] 1
-- [ ] This code has an error.
